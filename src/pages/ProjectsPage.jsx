@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
+import { HelmetAsync } from "react-helmet-async";
 import { Github } from "lucide-react";
 import { portfolioContent } from "../content/portfolioContent";
 import { revealScale } from "../utils/motion";
@@ -167,7 +168,7 @@ export default function ProjectsPage() {
   );
 
   useEffect(() => {
-    document.title = "Projects | Muhammad Imran";
+    document.title = "Projects | Malik Imran Full Stack Developer | MERN & Ruby on Rails";
     window.scrollTo({ top: 0, behavior: "auto" });
   }, []);
 

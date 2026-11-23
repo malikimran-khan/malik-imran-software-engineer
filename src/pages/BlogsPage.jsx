@@ -4,7 +4,7 @@ import FAQ from "./home/FAQ";
 
 export default function BlogsPage() {
   useEffect(() => {
-    document.title = "Blogs | Duncan Robert";
+    document.title = "Blogs | Malik Imran Full Stack Developer | MERN & AI";
     window.scrollTo({ top: 0, behavior: "auto" });
   }, []);
 
