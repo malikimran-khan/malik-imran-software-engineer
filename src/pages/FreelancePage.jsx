@@ -3,7 +3,7 @@ import FreelanceSection from "./home/FreelanceSection";
 
 export default function FreelancePage() {
   useEffect(() => {
-    document.title = "Freelance Web Development | Muhammad Imran";
+    document.title = "Freelance Web Development | Malik Imran Full Stack Developer | MERN & Ruby on Rails";
     window.scrollTo({ top: 0, behavior: "auto" });
   }, []);
 
