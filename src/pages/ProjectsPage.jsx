@@ -1,5 +1,4 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { HelmetAsync } from "react-helmet-async";
 import { Github } from "lucide-react";
 import { portfolioContent } from "../content/portfolioContent";
 import { revealScale } from "../utils/motion";
